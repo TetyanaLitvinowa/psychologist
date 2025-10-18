@@ -708,8 +708,15 @@
       const nav = document.getElementById("nav");
 
       burger.addEventListener("click", () => {
-        burger.classList.toggle("active");
         nav.classList.toggle("active");
+        burger.classList.toggle("active");
+      });
+
+      document.querySelectorAll(".nav-list a").forEach((link) => {
+        link.addEventListener("click", () => {
+          nav.classList.remove("active");
+          burger.classList.remove("active");
+        });
       });
     </script>
     <script>
