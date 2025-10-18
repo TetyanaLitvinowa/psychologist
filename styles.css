@@ -263,7 +263,7 @@ header::after {
 
 .social a {
   font-size: 1.2rem;
-  color: var(--terak);
+  color: var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -382,6 +382,14 @@ header::after {
 
 .nav.active {
   right: 0;
+}
+
+.nav {
+  display: none;
+}
+
+.nav.active {
+  display: flex;
 }
 
 .nav-list {
