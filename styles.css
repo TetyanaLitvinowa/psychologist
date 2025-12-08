@@ -530,6 +530,17 @@ section {
   width: 30%;
 }
 
+.service-card.price {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  width: 80%;
+  box-shadow: none;
+}
+
+.service-card.price p span {
+  color: var(--terak);
+  text-transform: uppercase;
+}
+
 .service-icon {
   font-size: 40px;
   color: var(--terak);
@@ -578,6 +589,18 @@ section {
 
   .service-card p {
     font-size: 15px;
+  }
+  .service-card.price {
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  .service-card.price,
+  .service-card.price p span {
+    font-size: 14px;
+  }
+
+  .service-card.price h3 {
+    font-size: 20px;
   }
 }
 
