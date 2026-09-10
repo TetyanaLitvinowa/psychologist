@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Умови та правила | Тетяна Літвінова</title>
+    <meta
+      name="description"
+      content="Умови та правила користування сайтом Тетяни Літвінової."
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .legal-page {
+        min-height: 100vh;
+        padding: 60px 0 90px;
+        background:
+          linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0.92),
+            rgba(255, 255, 255, 0.98)
+          ),
+          url("images/header.jpg") center top / cover fixed no-repeat;
+      }
+
+      .legal-back {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 35px;
+        color: var(--terak);
+        font-size: 15px;
+        text-transform: uppercase;
+        transition: opacity 0.25s ease;
+      }
+
+      .legal-back:hover {
+        opacity: 0.7;
+      }
+
+      .legal-card {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 55px 60px;
+        background: rgba(255, 255, 255, 0.88);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border: 1px solid rgba(63, 113, 108, 0.18);
+        border-radius: 16px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+      }
+
+      .legal-title {
+        font-family: var(--font-serif);
+        font-size: 55px;
+        line-height: 1;
+        font-weight: 300;
+        color: var(--terak);
+        text-align: center;
+        margin-bottom: 45px;
+      }
+
+      .legal-content p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 1.8;
+      }
+
+      .legal-content strong {
+        color: var(--terak);
+        font-weight: 600;
+      }
+
+      .legal-section-title {
+        font-family: var(--font-serif);
+        color: var(--terak);
+        font-size: 24px;
+        font-weight: 500;
+        margin: 35px 0 15px;
+      }
+
+      @media (max-width: 768px) {
+        .legal-page {
+          padding: 0;
+        }
+
+        .legal-card {
+          padding: 35px 22px;
+          border-radius: 12px;
+        }
+
+        .legal-title {
+          font-size: 36px;
+          margin-bottom: 35px;
+        }
+
+        .legal-content p {
+          font-size: 15px;
+          line-height: 1.7;
+        }
+
+        .legal-section-title {
+          font-size: 21px;
+        }
+      }
+
+      .legal-header {
+        width: 100%;
+        min-height: auto;
+        padding: 22px 0;
+        background: var(--terak);
+        color: var(--white);
+      }
+
+      .legal-header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+      }
+
+      .legal-brand {
+        display: flex;
+        flex-direction: column;
+        line-height: 1;
+      }
+
+      .legal-brand-name {
+        font-family: var(--font-serif);
+        font-size: 31px;
+        font-weight: 300;
+      }
+
+      .legal-brand-role {
+        margin-top: 7px;
+        font-family: var(--font-serif);
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+      }
+
+      .legal-home-link {
+        font-size: 13px;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+        transition: opacity 0.25s ease;
+      }
+
+      .legal-home-link:hover {
+        opacity: 0.7;
+      }
+
+      .site-footer {
+        padding: 35px 0;
+        background-color: var(--terak);
+        color: var(--white);
+      }
+
+      .footer-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 28px;
+        flex-wrap: wrap;
+        text-align: center;
+      }
+
+      .footer-links a {
+        font-size: 13px;
+        text-transform: uppercase;
+        transition: opacity 0.25s ease;
+      }
+
+      .footer-links a:hover {
+        opacity: 0.7;
+      }
+
+      @media (max-width: 768px) {
+        .legal-header {
+          padding: 17px 0;
+        }
+
+        .legal-brand-name {
+          font-size: 24px;
+        }
+
+        .legal-brand-role {
+          font-size: 11px;
+        }
+
+        .legal-home-link {
+          font-size: 11px;
+        }
+
+        .footer-links {
+          flex-direction: column;
+          gap: 14px;
+        }
+
+        .footer-links a {
+          font-size: 12px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="legal-header">
+      <div class="container legal-header-inner">
+        <a href="index.html" class="legal-brand">
+          <span class="legal-brand-name">Тетяна Літвінова</span>
+          <span class="legal-brand-role">Психолог</span>
+        </a>
+
+        <a href="index.html" class="legal-home-link">На головну</a>
+      </div>
+    </header>
+    <main class="legal-page">
+      <div class="container">
+        <article class="legal-card">
+          <h1 class="legal-title">Умови та правила</h1>
+
+          <div class="legal-content">
+            <p>
+              Ласкаво просимо на сайт Тетяни Літвінової. <br />
+              Ці умови регулюють користування сайтом, замовлення та оплату
+              психологічних, консультаційних, інформаційних та освітніх послуг,
+              групових та авторських програм і матеріалів, представлених на
+              цьому ресурсі.
+            </p>
+
+            <p>
+              Послуги надаються
+              <strong>ФОП ЛІТВІНОВА ТЕТЯНА ВІТАЛІЇВНА</strong>.
+            </p>
+
+            <h2 class="legal-section-title">1. Загальна інформація</h2>
+
+            <p>
+              На сайті представлені індивідуальні та парні консультації, групова
+              робота, терапевтичні, інформаційні та освітні програми, а також
+              інші авторські продукти та матеріали.
+            </p>
+
+            <p>
+              Інформація про конкретну послугу, її формат, тривалість, вартість
+              та умови участі зазначається на відповідній сторінці сайту.
+            </p>
+
+            <h2 class="legal-section-title">2. Замовлення та надання послуг</h2>
+
+            <p>
+              Послуги можуть надаватися онлайн у погоджений із клієнтом час або
+              у форматі групових та авторських програм відповідно до їх опису.
+            </p>
+
+            <p>
+              Після здійснення оплати клієнт отримує інформацію, необхідну для
+              отримання послуги або участі у відповідній програмі.
+            </p>
+
+            <h2 class="legal-section-title">3. Оплата та доступ</h2>
+
+            <p>
+              Оплата здійснюється онлайн через доступні на сайті платіжні
+              сервіси.
+            </p>
+
+            <p>
+              Вартість послуги або програми зазначається на сайті до моменту
+              здійснення платежу.
+            </p>
+
+            <p>
+              Здійснюючи оплату, клієнт підтверджує, що ознайомився з описом
+              послуги, її вартістю та умовами надання.
+            </p>
+
+            <h2 class="legal-section-title">4. Перенесення та скасування</h2>
+
+            <p>
+              Умови перенесення або скасування індивідуальних та парних
+              консультацій визначаються відповідно до правил конкретної послуги
+              та попередніх домовленостей із клієнтом.
+            </p>
+
+            <p>
+              Для групових, терапевтичних, інформаційних та освітніх програм
+              можуть діяти окремі правила участі, зазначені в описі відповідної
+              програми.
+            </p>
+
+            <h2 class="legal-section-title">5. Конфіденційність</h2>
+
+            <p>
+              Інформація, отримана під час психологічної та консультаційної
+              роботи, зберігається конфіденційно відповідно до професійних
+              етичних принципів та вимог чинного законодавства.
+            </p>
+
+            <p>
+              Персональні дані, які клієнт надає під час користування сайтом,
+              замовлення або оплати послуг, використовуються для організації
+              надання послуг, комунікації з клієнтом та виконання вимог
+              законодавства.
+            </p>
+
+            <h2 class="legal-section-title">6. Інтелектуальна власність</h2>
+
+            <p>
+              Тексти, відео, аудіо, вправи, презентації, методичні та інші
+              авторські матеріали, розміщені на сайті або надані в межах
+              програм, є об’єктами інтелектуальної власності.
+            </p>
+
+            <p>
+              Копіювання, публічне поширення або передача цих матеріалів третім
+              особам без дозволу автора не допускається.
+            </p>
+
+            <h2 class="legal-section-title">7. Зміна умов</h2>
+
+            <p>
+              ФОП Літвінова Тетяна Віталіївна залишає за собою право оновлювати
+              та змінювати ці умови. Актуальна редакція завжди доступна на
+              сайті.
+            </p>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <nav class="footer-links" aria-label="Юридична інформація">
+          <a href="terms.html">УМОВИ ТА ПРАВИЛА</a>
+          <a href="refund-policy.html">ПОЛІТИКА ПОВЕРНЕННЯ КОШТІВ</a>
+          <a href="legal.html">ЮРИДИЧНА ІНФОРМАЦІЯ</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
